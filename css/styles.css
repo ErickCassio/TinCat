@@ -1,29 +1,31 @@
 body {
     font-family: 'Montserrat';
+    text-align: center;
 }
 
-h1 {  
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat';
+}
+
+/* Big heading */
+.big-heading {
     font-size: 3.5rem;  
     line-height: 1.5;
     font-weight: bolder;
 }
 
-h2 {
-    font-family: 'Montserrat';
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: bold;
-}
-
-h3 {  
-    font-family: 'Montserrat';
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
 .container-fluid {
     padding: 3% 15% 7%;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color:#fff;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 /*Navigation Bar*/
@@ -43,8 +45,10 @@ h3 {
     font-weight: 200;
 }
 
+/* Title section */
+
 #title {
-    background-color: #ff4c68;
+    text-align: left;
     z-index: -1;
 }
 
@@ -55,13 +59,17 @@ h3 {
     right: 26%;
 }
 
-/*Features part*/
+/*Features section*/
 
 #features {
-    background-color: #fff;
     padding: 7% 5%;
     z-index: 1;
     position: relative;
+}
+
+.features-text {
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .icon-light-red {
@@ -80,8 +88,13 @@ h3 {
 
 #testimonials {
     background-color: #ef8172;
-    color:#fff;
     text-align: center ;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
 }
 
 .testimonials-img {
@@ -100,7 +113,6 @@ h3 {
     background-color: #ef8172;
     padding-bottom: 5%;
     padding-top: 3%;
-    text-align: center;
 }
 
 .press-logo {
@@ -112,7 +124,17 @@ h3 {
 
 #pricing {
     padding: 5% 5%;
-    text-align: center;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.pricing-title {
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .card {
@@ -135,9 +157,6 @@ h3 {
 /* Call to Action */
 
 #cta {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: center;
     padding: 6% 17%;
 }
 
@@ -151,7 +170,5 @@ h3 {
 /* Footer */
 
 #footer {
-    background-color: #fff;
-    text-align: center;
     padding: 6% 17%;
 }
